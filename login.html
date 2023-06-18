@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Minette Macaron</title>
+	<style>
+		.login-container {
+			width: 300px;
+			padding: 16px;
+			background-color: white;
+			border-radius: 8px;
+			box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+		}
+
+		.login-container h2 {
+			text-align: center;
+		}
+
+		.login-container form {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.login-container input {
+			margin-bottom: 10px;
+			padding: 10px;
+			border-radius: 4px;
+			border: 1px solid #ddd;
+		}
+
+		.login-container button {
+			padding: 10px;
+			margin: 5px;
+			border-radius: 4px;
+			border: none;
+			background-color: #3384db;
+			color: white;
+			cursor: pointer;
+		}
+
+		.login-container button:hover {
+			background-color: #0056b3;
+			transition: 500ms;
+		}
+	</style>
+	<link href="maindesign.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+	<div class="page_header">
+		<div class="toplogo">
+			<a href="./index.html"><img src="images/logo2.png" width="300" alt="minettelogo"></a>
+		</div>
+		<div class="topnav">
+			<ul>
+				<li><a href="./about.html"><img src="images/about.png" width="140" height="50" alt="about"></a>
+				</li>
+				<li><a href="./product.html"><img src="images/product.png" width="140" height="50" alt="product"></a>
+				</li>
+				<li><a href="./login.html"><img src="images/login-b.png" width="140" height="50" alt="login"></a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="page_content" style="text-align: center; width: 100%">
+		<div style="text-align: center; margin-bottom: 50px">
+			<img src="images/logo11.png" width="30%">
+		</div>
+		<div>
+			<div style="text-align: center; width: 40%; margin-left: 35%">
+				<div class="login-container">
+					<h2>Login</h2>
+					<form>
+						<input type="text" id="username" name="username" placeholder="ID" required>
+						<input type="password" id="password" name="password" placeholder="Password" required>
+						<button type="submit">Login</button>
+						<button type="button">Sign Up</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer" style="float: left; margin-top: 100px;">
+		<div class="footer-container">
+			<div>
+				<img class="link" src="images/insta.png"
+					onclick="window.open('https://www.instagram.com/minette_macarons')" width="50px"> <img class="link"
+					src="images/facebook.png"
+					onclick="window.open('https://www.facebook.com/profile.php?id=100008252051095')" width="50px">
+
+			</div>
+			<span></span> <span>B118, 152, Magokseo-ro, Gangseo-gu, Seoul
+				Republic of Korea (07788)</span> <span>Minette Macaron </span> <span>Copyright
+				2023. Yunchul Lee all rights reserved.</span>
+		</div>
+		<div class="footer-container" id="footer-container-right">
+			<span> 대표: <b>이윤철 (Yuncheol Lee)</b></span> <span> 소속: IT경영학과
+				(IT Business Administration, Korea Politechnic Univ.)</span> <span>
+				전화(TEL) : 010-9047-8017 (Available Hours: 09:00 ~ 24:00) </span> <span>
+				이메일(EMAIL): <a href="mailto:tommy20108@naver.com" title="E-mail"
+					style="color: lightgray;">tommy20108@naver.com</a>
+			</span>
+		</div>
+	</div>
+
+
+</body>
+
+</html>
